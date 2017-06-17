@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UW Campus Compost</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script src="/assets/bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
+
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/index.css">
+
+    <style>
+      .embed-container {
+        position: relative;
+        padding-bottom: 63%;
+        height: 0;
+        max-width: 100%;
+      }
+      .embed-container iframe, .embed-container object {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-default">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">UW Campus Compost</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="/about">About us</a>
+            </li>
+            <li class="active">
+              <a href="/locations">Our locations</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Resources <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="/what-is-compostable">What's compostable? What's not?</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="/blog">Blog</a>
+            </li>
+            <li>
+              <a href="/join">Join us</a>
+            </li>
+            <li>
+              <a href="/contact">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <h1>Our locations</h1>
+      <div class="embed-container">
+        <iframe width="2400" height="1500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="UW" src="//www.arcgis.com/apps/Embed/index.html?webmap=28009a6d20a749f7b24d82ae9ae3c7a0&amp;extent=-80.5479,43.4664,-80.5367,43.4709&amp;zoom=true&amp;scale=true&amp;disable_scroll=true&amp;theme=light"></iframe>
+      </div>
+    </section>
+  </body>
+</html>
