@@ -3,6 +3,7 @@
   padding-bottom: 63%;
   height: 0;
   max-width: 100%;
+  margin-bottom: 16px;
 }
 
 .embed-container iframe, .embed-container object {
