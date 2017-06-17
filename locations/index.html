@@ -13,6 +13,24 @@
 
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/index.css">
+
+    <style>
+      .label {
+        font-size: 14px;
+      }
+
+      .label-open {
+        background-color: #00ce00;
+      }
+
+      .label-closed {
+        background-color: #e9d300;
+      }
+
+      .label-inactive {
+        background-color: #ff3622;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -73,15 +91,21 @@
           </thead>
           <tbody>
             <tr>
-              <td>Green</td>
+              <td>
+                <span class="label label-open">Green</span>
+              </td>
               <td>Open this term</td>
             </tr>
             <tr>
-              <td>Yellow</td>
+              <td>
+                <span class="label label-closed">Yellow</span>
+              </td>
               <td>Closed this term</td>
             </tr>
             <tr>
-              <td>Red</td>
+              <td>
+                <span class="label label-inactive">Red</span>
+              </td>
               <td>No longer active</td>
             </tr>
           </tbody>
