@@ -2,11 +2,6 @@ section {
   margin: 0 20px;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-}
-
 .embed-container {
   position: relative;
   padding-bottom: 63%;
