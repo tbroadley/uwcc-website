@@ -3,7 +3,9 @@
   <head>
     <title>UW Campus Compost</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1"><script
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script
       src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
       crossorigin="anonymous"></script>
@@ -57,38 +59,36 @@
       </nav>
     </header>
     <section>
-      <h2>About Us</h2>
-      <p>
-        Longer description about us.
-      </p>
-    </section>
-    <section>
-      <h2>Our teams</h2>
-      <p>We have three main departments.</p>
-      <h3> Operations </h3>
-      <p>This is what operations does.</p>
-      <h3> Marketing </h3>
-      <p>This is what marketing does.</p>
-      <h3> Membership </h3>
-      <p>This is what membership does.</p>
-      <a href="/join">Join us</a>
-    </section>
-    <section>
-      <h2>Our Partners</h2>
-      <p>UWCC partners with the following services and organizations.</p>
-      <h5>Sustainable Campus Initiative</h5>
-      <a href="http://www.feds.ca/sustainability/"><img src="../assets/logos/sci_logo.png" alt="Sustainable Campus Initiative"/></a>
-      <h5>Federation of Students</h5>
-      <a href="http://www.feds.ca/"><img src="../assets/logos/feds_logo.png" alt="Federation of Students"/></a>
-      <h5>Faculty of Environment</h5>
-      <a href="https://uwaterloo.ca/environment/"><img src="../assets/logos/enviro_faculty_logo.png" alt="Faculty of Environment"/></a>
-      <h5>Waterloo Environment Students Endowment Fund</h5>
-      <a href="https://uwaterloo.ca/waterloo-environment-students-endowment-fund/"><img src="../assets/enviro_faculty_logo.png" alt="Waterloo Environment Students Endowment Fund"/></a>
-      <h5>Faculty of Environment Ecology Lab</h5>
-      <a href="https://uwaterloo.ca/ecology-lab/"><img src="../assets/logos/ecology_lab_logo.png" alt="Faculty of Environment Ecology Lab"/></a>
-      <h5>UW Food Services</h5>
-      <a href="https://uwaterloo.ca/food-services/"><img src="../assets/logos/food_services_logo.png" alt="UW Food Services"/></a>
-      <a href="/what-is-compostable">Learn more</a>
+      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                Join our mailing list!
+              </a>
+            </h4>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfCPcKzE1vuC-nMH7qM5cpK7vzKV0ErJExb2E7309fARYbasw/viewform?embedded=true" width="760" height="2100" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingTwo">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Join UW Campus Compost as a volunteer!
+              </a>
+            </h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body">
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSczsvkyMz6SKHK8NU755UsAdQ6Y39m0R-VLf9UTBSD_VtTOZg/viewform?embedded=true" width="760" height="3200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
