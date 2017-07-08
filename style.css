@@ -1,0 +1,44 @@
+body {
+  font-family: Avenir, sans-serif;
+  font-size: 14pt;
+  margin: auto;
+  width: 100%;
+  padding: 10px;}
+
+.navbar {
+  border-radius: 0px; }
+  .navbar.navbar-default {
+    background-color: #046180;
+    border: 0;
+    color: #FFFFFF; }
+    .navbar.navbar-default .navbar-brand {
+      color: #FFFFFF;
+      font-size: 16pt}
+      .navbar.navbar-default .navbar-brand:hover {
+        background-color: #FFFFFF;
+        color: #046180; }
+    .navbar.navbar-default .navbar-nav > li > a {
+      color: #FFFFFF; }
+      .navbar.navbar-default .navbar-nav > li > a:hover {
+        background-color: #FFFFFF;
+        color: #046180; }
+    .navbar.navbar-default .navbar-nav > .open > a {
+      background-color: #046180;
+      color: #FFFFFF; }
+      .navbar.navbar-default .navbar-nav > .open > a:hover {
+        background-color: #FFFFFF;
+        color: #046180; }
+    .navbar.navbar-default .navbar-nav .dropdown-menu {
+      background-color: #046180;
+      color: #FFFFFF; }
+      .navbar.navbar-default .navbar-nav .dropdown-menu > .li > a {
+        background-color: #FFFFFF; }
+
+.main_copy {
+  font-family: Avenir, sans-serif;
+  text-align: center; }
+
+.btn-default {
+  font-family: Avenir, sans-serif; }
+
+/*# sourceMappingURL=style.css.map */

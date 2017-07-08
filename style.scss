@@ -1,0 +1,82 @@
+$heading: Avenir, sans-serif;
+$copy: Avenir, sans-serif;
+$main_copy: Avenir, sans-serif;
+$second_copy: Avenir, sans-serif;
+$button_copy: Avenir, sans-serif;
+
+$black: #000000;
+$white: #FFFFFF;
+$blue: #046180;
+
+$light_grey: #D9D9D9;
+$medium_grey: #656668;
+$dark_grey: #4F4F51;
+$green: #1D6432;
+$yellow: #FFDB00;
+$pale_orange: #FEC05E;
+
+body{
+    font-family: $copy
+}
+
+.navbar{
+    border-radius: 0px;
+
+    &.navbar-default{
+        background-color: $blue;
+        border: 0;
+        color: $white;
+
+        .navbar-brand{
+            color: $white;
+
+            &:hover{
+              background-color: $white;
+              color: $blue;
+            }
+        }
+
+        .navbar-nav{
+            &>li>a{
+                color: $white;
+
+                &:hover{
+                    background-color: $white;
+                    color: $blue;
+                }
+            }
+
+            &>.open>a{
+                background-color: $blue;
+                color: $white;
+
+                &:hover{
+                    background-color: $white;
+                    color: $blue;
+                }
+            }
+
+            .dropdown-menu{
+                background-color: $blue;
+                color: $white;
+
+                &>.li>a{
+                    background-color: $white;
+                }
+            }
+        }
+    }
+}
+
+.main_copy{
+    font-family: $main_copy;
+}
+
+.btn-default{
+    font-family: $button_copy;
+}
+
+div.container{
+    margin: 0px auto;
+    width: 600px;
+}
